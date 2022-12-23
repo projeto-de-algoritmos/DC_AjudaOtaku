@@ -25,7 +25,7 @@ Como há muitas necessidades de modulos, foi feito um Docker para facilitar o us
 
 ### Back
 
-Entre na pasta `app`.
+Entre na pasta `api`.
 
 Primeiro crie a imagem:
 ```
