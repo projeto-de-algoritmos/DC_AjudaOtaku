@@ -1,5 +1,5 @@
 import './App.css';
-import AnimeCard from './components/AnimeCard'
+import AnimeCard from './components/AnimeCard/AnimeCard'
 import axios from "axios";
 import { useEffect, useState } from "react";
 const API_URL =  process.env.API_URL|| 'http://localhost:3001';
