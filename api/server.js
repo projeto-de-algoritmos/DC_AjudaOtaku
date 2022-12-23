@@ -1,7 +1,7 @@
 require('dotenv').load();
 const express = require('express'),
     app = express(),
-    port = process.env.APP_API_PORT || 3000,
+    port = process.env.APP_API_PORT || 3001,
     bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }));
