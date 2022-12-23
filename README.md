@@ -19,11 +19,9 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 **Linguagem**: JavaScript<br>
 **Framework**: Node<br>
 
-Como há muitas necessidades de modulos, foi feito um Docker para facilitar o uso. Por isso para o uso dessa aplicação é preciso do Docker instalado. 
+Como há muitas necessidades de modulos, foi feito um Docker e Docker-compose para facilitar o uso. Por isso para o uso dessa aplicação é preciso do Docker e o Docker-compose instalado. 
 
 ## Uso 
-
-### Back
 
 Dentro da pasta principal
 
@@ -35,7 +33,3 @@ docker-compose up --build
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
