@@ -25,19 +25,13 @@ Como há muitas necessidades de modulos, foi feito um Docker para facilitar o us
 
 ### Back
 
-Entre na pasta `api`.
+Dentro da pasta principal
 
-Primeiro crie a imagem:
-```
-docker build -t app .
-```
+Primeiro crie a imagem e rode o projeto:
 
-Após, rode usando:
 ```
-docker run -p 3001:3001 app
+docker-compose up --build
 ```
-
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
