@@ -16,13 +16,16 @@ Descreva os objetivos do seu projeto e como ele funciona.
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: JavaScript<br>
+**Framework**: Node<br>
+
+Como há muitas necessidades de modulos, foi feito um Docker para facilitar o uso. Por isso para o uso dessa aplicação é preciso do Docker instalado. 
 
 ## Uso 
 
 ### Back
+
+Entre na pasta `app`.
 
 Primeiro crie a imagem:
 ```
