@@ -5,7 +5,7 @@ class AnimeList {
         data.forEach(element => {
             element.entry.forEach(entry => {
                 if (!animeList.find(element => element.title == entry.title)){
-                    if(count <= 10){
+                    if(count <= 11){
                         animeList.push({
                             title: entry.title,
                             image: entry.images.jpg.image_url
