@@ -1,0 +1,14 @@
+version: '3'
+services:
+  api:
+    build: api/.
+    volumes: 
+      - '/api/node_modules'
+    ports: 
+      - '3001:3001'
+  front:
+    build: app/.
+    volumes: 
+      - '/app/node_modules'
+    ports: 
+      - '3000:3000'

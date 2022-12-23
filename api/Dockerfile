@@ -1,10 +1,12 @@
  FROM node:latest
 
- WORKDIR /app
- 
- COPY . .
+ WORKDIR /api
 
- RUN npm install 
+ COPY package.json /api
+ 
+ RUN npm install
+ 
+ COPY . /api
 
  EXPOSE 3001
  
