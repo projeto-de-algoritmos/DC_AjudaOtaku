@@ -1,11 +1,10 @@
 module.exports = {
     validInversions: {
         request: {
-            array: ['test', 'test2', 'tes3'],
-            inversions: [['test2', 'test3', 'test'], ['test3', 'test', 'test2']]
+            data: [{array: ['test2', 'test3','test'], name: 'joao'},{array: ['test3', 'test','test2'], name: 'pedro'}]
         },
         response: {
-            result: ['test3', 'test2', 'test']
+            ranking: ['test3', 'test2', 'test']
         }
       }
   }

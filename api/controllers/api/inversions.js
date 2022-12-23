@@ -6,7 +6,8 @@ const express = require('express'),
 
 router.post('/', (req, res) => {
   try {
-    response = array.countInversion(req.body.array, req.body.inversions);
+    const ranking = array.rankingDict(req.body.data);
+    response = {ranking: array.dictToSortedArray(ranking)};
     res.status(200).json(response);
     res.end();
   }
