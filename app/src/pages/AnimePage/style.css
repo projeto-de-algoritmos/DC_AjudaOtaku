@@ -1,0 +1,18 @@
+.Anime {
+    text-align: center;
+  }
+  
+  .Anime-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display:grid;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1vw));
+    grid-gap: 3vw;
+    padding:  4vw;
+    justify-items: center;
+    align-items: center;
+  }
+  

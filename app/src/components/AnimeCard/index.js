@@ -1,5 +1,5 @@
 import React from "react";
-import "./AnimeCard.css";
+import "./style.css";
 
 export default class AnimeCard extends React.Component {
 
