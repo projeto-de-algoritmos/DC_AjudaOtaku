@@ -10,8 +10,12 @@
     border-radius: 15px;
     align-content: center;
     transition: all .3s;
+    cursor: "move"
   }
-  
+.anime-grid{
+    display: contents;
+}
+
 .anime-image{
     border: 1px solid #000;
     border-width: 0.3em;
