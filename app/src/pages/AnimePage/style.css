@@ -1,8 +1,14 @@
-.Anime {
+.page-header{
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.anime {
     text-align: center;
   }
   
-  .Anime-header {
+  .anime-header {
     background-color: #282c34;
     min-height: 100vh;
     display:grid;
@@ -16,3 +22,28 @@
     align-items: center;
   }
   
+.results-button{
+  background-color: white;
+  color: black;
+}
+.results-button:hover{
+  background-color: grey;
+  color: #282c34;
+}
+.button{
+  margin: 1vw;
+  padding: 1vw;
+  font-size: large;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 0;
+}
+
+.send-button{
+  background-color: green;
+  color: aliceblue;
+}
+.send-button:hover{
+  background-color: darkgreen;
+  color: #282c34;
+}

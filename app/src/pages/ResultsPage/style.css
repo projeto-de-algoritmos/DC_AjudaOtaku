@@ -1,0 +1,55 @@
+.results-header{
+    background-color: #282c34;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    display: grid;
+    align-items: center;
+    align-content: center;
+  }
+
+.results-card{
+    padding: 1vw;
+    align-items: center;
+    border-width: 0.3em;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+    color: #282c34;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    border-radius: 15px;
+    align-content: center;
+    display: inline-block;
+  }
+.results-title{
+    font-size: small;
+    height: 40px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    max-width: 290px;
+    display: inline-block;
+    align-self: center;
+
+}
+.results-position{
+    display: inline-block;
+    padding: 0.5vw;
+    margin: 0px;
+    font-size: small;
+    width: 15px;
+}
+
+.back-button{
+    background-color: rgb(183, 32, 32);
+    color: aliceblue;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.back-button:hover{
+    background-color: darkred;
+    color: #282c34;
+  }
