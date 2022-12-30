@@ -1,4 +1,4 @@
-# NomedoProjeto
+# Ajuda Otaku
 
 **Número da Lista**: 26<br>
 **Conteúdo da Disciplina**: D&C<br>
@@ -18,6 +18,11 @@ Uma aplicação que auxilia fãs de animes (Otakus) a escolherem os melhores ani
 ![imagem 2](/public/screen2.PNG)
 
 ![imagem 3](/public/screen3.PNG)
+
+## Video
+
+
+https://user-images.githubusercontent.com/23579166/210108465-59690168-b69c-4952-9d1d-3fee46a9fff4.mp4
 
 
 ## Instalação 
