@@ -8,20 +8,6 @@
     text-align: center;
   }
   
-  .anime-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display:grid;
-    justify-content: left;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    grid-template-columns: repeat(auto-fit, minmax(20vw, 1vw));
-    grid-gap: 3vw;
-    padding:  4vw;
-    justify-items: center;
-    align-items: center;
-  }
-  
 .results-button{
   background-color: white;
   color: black;
@@ -46,4 +32,27 @@
 .send-button:hover{
   background-color: darkgreen;
   color: #282c34;
+}
+.otakuName{
+  font-size: medium;
+  display: contents;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.anime-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display:grid;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  grid-template-columns: repeat(auto-fit, minmax(20vw, 1vw));
+  grid-gap: 3vw;
+  padding:  4vw;
+  justify-items: center;
+  align-items: center;
+}
+.anime-grid{
+  display: contents;
 }

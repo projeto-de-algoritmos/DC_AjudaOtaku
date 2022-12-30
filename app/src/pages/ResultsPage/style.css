@@ -1,4 +1,4 @@
-.results-header{
+.responses-header{
     background-color: #282c34;
     min-height: 100vh;
     font-size: calc(10px + 2vmin);
@@ -8,14 +8,14 @@
     align-content: center;
   }
 
-.results-card{
+.responses-card{
     padding: 1vw;
     align-items: center;
     border-width: 0.3em;
     margin-top: 1vw;
     margin-left: auto;
     margin-right: auto;
-    width: 310px;
+    width: 400px;
     color: #282c34;
     background: #ffffff;
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
@@ -23,25 +23,59 @@
     align-content: center;
     display: inline-block;
   }
-.results-title{
+.responses-title{
     font-size: small;
     height: 40px;
     font-weight: bold;
     padding: 0;
     margin: 0;
-    max-width: 290px;
+    max-width: 320px;
     display: inline-block;
     align-self: center;
 
 }
-.results-position{
+.responses-position{
     display: inline-block;
     padding: 0.5vw;
     margin: 0px;
-    font-size: small;
-    width: 15px;
+    font-size: medium;
+    width: 40px;
 }
 
+.person-card{
+  padding: 1vw;
+  align-items: center;
+  border-width: 0.3em;
+  margin-top: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  color: #fff;
+  background: #282c34;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  border-radius: 15px;
+  align-content: center;
+  display: inline-block;
+}
+.person-content{
+  align-items: center;
+  display: grid;
+}
+.person-text{
+  align-self: center;
+  font-size: small;
+  margin: auto;
+}
+.ranking-text{
+  align-self: center;
+  font-size:large;
+  padding: 2vw 15vw 2vw 15vw;
+  margin-top: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
 .back-button{
     background-color: rgb(183, 32, 32);
     color: aliceblue;
